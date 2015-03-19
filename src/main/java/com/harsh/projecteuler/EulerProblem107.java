@@ -10,7 +10,6 @@ public class EulerProblem107 {
 		// /path/to/euler107/inputfile.txt
 		System.out.println("Enter inputsource for Euler Problem 107:");
 		String inputFile=new Scanner(System.in).nextLine();
-		inputFile = "/Users/vyash/Documents/p107_network.txt";
 		
 		long startTime = new Date().getTime();
 		Graph g = new Graph(inputFile);
